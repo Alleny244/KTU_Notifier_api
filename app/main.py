@@ -55,3 +55,7 @@ def index():
             l.append(d)
 
     return jsonify(l)
+
+
+if __name__ == '__main__':
+    app.run()
