@@ -8,7 +8,7 @@ import requests
 app = Flask(__name__)
 
 
-@app.route('/api/v1/', methods=['GET'])
+@app.route('/', methods=['GET'])
 def index():
     if request.method == 'GET':
         html = requests.get(
