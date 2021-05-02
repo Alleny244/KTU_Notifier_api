@@ -1,6 +1,8 @@
 # KTU Notifier Api
 
-A simple python script that notifies you when there is a new announcement from KTU. Data is obtained by web scraping 
+An Api that returns the list of  notifications from the announcment section of [KTU Website](https://ktu.edu.in/home.htm;jsessionid=E0C0D3647A76E98192045D61003A82E6)</br>
+</br>
+Beautiful Soup library of python was used in web Scraping </br>
 The python script is hosted with Flask in Heroku
 
 
